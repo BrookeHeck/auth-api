@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "init:config": "sequelize init:config",
+    "db:create": "sequelize db:create",
+    "watch": "NODE_ENV=development nodemon index.js",
+    "test:watch": "NODE_ENV=test jest --watchAll",
     "test": "NODE_ENV=test jest --verbose --coverage"
   },
   "author": "",
