@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1664421090995" clover="3.2.0">
+  <project timestamp="1664421090995" name="All files">
+    <metrics statements="79" coveredstatements="45" conditionals="16" coveredconditionals="6" methods="21" coveredmethods="8" elements="116" coveredelements="59" complexity="0" loc="79" ncloc="79" packages="5" files="8" classes="8"/>
+    <package name="middleware">
+      <metrics statements="29" coveredstatements="14" conditionals="6" coveredconditionals="1" methods="6" coveredmethods="2"/>
+      <file name="acl.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/middleware/acl.js">
+        <metrics statements="7" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="basic-auth.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/middleware/basic-auth.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="bearer-auth.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/middleware/bearer-auth.js">
+        <metrics statements="11" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="19" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="1"/>
+      <file name="data-collection.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/models/data-collection.js">
+        <metrics statements="9" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/models/index.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.clothes">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="clothes.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/models/clothes/clothes.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.food">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="food.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/models/food/food.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.users">
+      <metrics statements="27" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="7" coveredmethods="3"/>
+      <file name="users.js" path="/home/btheck/code401/labs/auth-api/auth-api-server/src/auth/models/users/users.js">
+        <metrics statements="27" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="7" coveredmethods="3"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
