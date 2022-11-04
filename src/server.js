@@ -2,6 +2,7 @@
 
 const { sign } = require('crypto');
 const express = require('express');
+const cors = require('cors');
 
 const notFoundHandler = require('./../src/auth/error-handlers/404');
 const errorHandler = require('./../src/auth/error-handlers/500');
@@ -11,9 +12,8 @@ const authRoutes = require('./../src/auth/routes/authRouter');
 const v1Routes = require('./../src/auth/routes/v1');
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
-
 app.use(logger);
 
 app.use(authRoutes);
